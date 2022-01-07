@@ -46,7 +46,7 @@ newspapers.forEach(newspaper => {
 })
 
 app.get("/", (req,res)=>{
-    res.json("welcome to my climate change news api")
+    res.json("cendouz")
 })
 app.get("/news", (req,res)=>{
     // axios.get("https://www.theguardian.com/environment/climate-crisis")
